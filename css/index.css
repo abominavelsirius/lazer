@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+
+body,
+html {
+    padding: auto;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    background: #141414;
+}
+
+/*--------------------------------------------------HEADER------------------------------------------------*/
+
+header {
+    background: linear-gradient(rgb(0, 0, 0) 5% ,#141414);
+    /* width: 640px;
+    margin: 0 auto; */
+    position: sticky;
+    width: 100%;
+}
+
+
+.principal-icon {
+    width: 110px;
+    margin-left: 45px;
+}
+
+
+.position {
+    position: absolute;
+    left: 300px;
+    top: 0;
+}
+
+
+.position li {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: inline;
+    padding: 0 10px;
+    color: #dce4e4;
+}
+
+.position a {
+    color: rgba(255, 255, 255, 0.767);
+    transition: 0.5s;
+}
+
+.position a:hover {
+    color: rgba(255, 255, 255, 0.322);
+}
+
+
+
+/*--------------------------------------------------MAIN------------------------------------------------*/
+
+
+
+
+main {
+    background-color:  #141414;
+    margin: 90px 0 0 0;
+}
+
+
+
+.title-apresenta {
+    color:  #dce4e4;
+    margin: 0 0 0;
+}
+
+main li {
+    display: inline-block;
+}
+
+main h2, p {
+    text-align: center;
+}
+
+
+
+
+
+.img-padrao {
+    width: 280px;
+    height: 150px;
+    padding: 0 10px 0 10px;
+}
+
+
+
+.bloco-padrao {
+    /* height: 300px;
+    width: 300px; */
+    /* padding: 1px 0 0 0 ; */
+    border: 2px solid   #141414;
+    background-color:  #141414;
+    color: #141414;
+}
+
+/*Tirando o titulo dos blocos */
+
+
+
+.bloco-padrao h2 {
+    display: none;
+}
+
+h2:hover {
+    display: block;
+}
+
+/*------------------------------*/
+
+
+
+.bloco-padrao:hover {
+    border-color: rgb(172, 38, 38);
+    color: #dce4e4;
+
+}
+
+.bloco-padrao h2 {
+    margin: 2px 0 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------FRONT-END AVANÇADO PRA ESTUDAR DEPOIS  ------------------------------------------------*/
+
+
+
+.movie {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.movie figcaption {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    backdrop-filter: blur(5px);
+    width: 100%;
+    height: 100%;
+    transition: .3s all;
+}
+
+.movie:hover figcaption {
+    opacity: 1;
+    z-index: 2;
+}
+
+
+
+.movie:hover img {
+    opacity: 0.5;
+    z-index: 1;
+}
+
+
+
+
+.moviee {
+    position: relative;
+  
+
+}
+
+.moviee figcaption {
+    opacity: 1px;
+    backdrop-filter: blur(5px);
+}
+
+.moviee figcaption:hover {
+    opacity: 0.5px;
+
+}
+
+
+
+
+
+
+/* 
+tr {
+    position: absolute;
+    top: 0;
+    left: 700px;
+}
+
+td img {
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 90px;
+    margin:  0 10px;
+    transition: 2s;
+}
+
+td p {
+    margin: 10px 10px 0 80px;
+}
+
+td {
+    transition: 1s;
+}
+
+td:hover {
+    border: 1px solid rgb(153, 21, 131);
+} */
