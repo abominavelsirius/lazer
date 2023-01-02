@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 /* font-family: 'Roboto', sans-serif; */
 
-body,
-html {
+body {
     padding: auto;
     margin: auto;
     font-family: 'Roboto', sans-serif;
@@ -12,43 +11,44 @@ html {
 /*--------------------------------------------------HEADER------------------------------------------------*/
 
 header {
-    background: linear-gradient(rgb(0, 0, 0) 5% ,#141414);
+    /* background: linear-gradient(rgb(0, 0, 0) 5% ,#141414); */
     /* width: 640px;
     margin: 0 auto; */
-    position: sticky;
     width: 100%;
 }
 
 
 .principal-icon {
-    width: 110px;
-    margin-left: 45px;
+    padding: 0 0 0 50px;
+    width: 111px;
 }
 
-
 .position {
-    position: absolute;
-    left: 300px;
+    background: linear-gradient(rgb(0, 0, 0) 5% ,#141414);
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: fixed;
     top: 0;
 }
 
 
+
 .position li {
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: bold;
     display: inline;
     padding: 0 10px;
-    color: #dce4e4;
+    color: #b3b3b3;
 }
 
 .position a {
     color: rgba(255, 255, 255, 0.767);
     transition: 0.5s;
+    text-decoration: none;
 }
 
 .position a:hover {
-    color: rgba(255, 255, 255, 0.322);
+    color: rgba(255, 255, 255, 0.432);
 }
 
 
@@ -78,59 +78,41 @@ main h2, p {
     text-align: center;
 }
 
+.list-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.list-box figcaption {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    backdrop-filter: blur(1px);
+    width: 100%;
+    height: 100%;
+    transition: .3s all;
+}
+
+.list-box figcaption:hover {
+    opacity: 1;
+    z-index: 2;
+}
+
+.list-box img:hover {
+    opacity: 0.5;
+    z-index: 1;
+}
 
 
 
 .img-padrao {
     width: 280px;
     height: 150px;
-    padding: 0 10px 0 10px;
+    padding: 0 3px 0 3px;
+    border-radius: 8px;
 }
-
-
-
-.bloco-padrao {
-    /* height: 300px;
-    width: 300px; */
-    /* padding: 1px 0 0 0 ; */
-    border: 2px solid   #141414;
-    background-color:  #141414;
-    color: #141414;
-}
-
-/*Tirando o titulo dos blocos */
-
-
-
-.bloco-padrao h2 {
-    display: none;
-}
-
-h2:hover {
-    display: block;
-}
-
-/*------------------------------*/
-
-
-
-.bloco-padrao:hover {
-    border-color: rgb(172, 38, 38);
-    color: #dce4e4;
-
-}
-
-.bloco-padrao h2 {
-    margin: 2px 0 10px;
-}
-
-
-
-
-
-
-
 
 
 
@@ -151,7 +133,7 @@ h2:hover {
     opacity: 0;
     position: absolute;
     top: 0;
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(1px);
     width: 100%;
     height: 100%;
     transition: .3s all;
@@ -162,8 +144,6 @@ h2:hover {
     z-index: 2;
 }
 
-
-
 .movie:hover img {
     opacity: 0.5;
     z-index: 1;
@@ -172,23 +152,23 @@ h2:hover {
 
 
 
-.moviee {
+/* .moviee {
     position: relative;
   
 
-}
+} */
 
-.moviee figcaption {
+
+
+/* .movie figcaption {
     opacity: 1px;
     backdrop-filter: blur(5px);
 }
 
-.moviee figcaption:hover {
+.movie figcaption:hover {
     opacity: 0.5px;
 
-}
-
-
+} */
 
 
 
