@@ -105,6 +105,10 @@ main h2, p {
     z-index: 1;
 }
 
+li {
+    width: 280px;
+    height: 150px;
+}
 
 
 .img-padrao {
