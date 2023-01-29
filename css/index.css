@@ -75,8 +75,11 @@ main li {
 }
 
 li {
-    width: 323px;
-    height: 170px;
+    width: 300px;
+}
+
+li img {
+    width: inherit;;
 }
 
 
