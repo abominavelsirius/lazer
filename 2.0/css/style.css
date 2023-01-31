@@ -46,13 +46,23 @@ body {
 /* ================================================================= */
 
 .mainHistorico .container {
-    display: flex;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        flex-wrap: wrap;
 }
+
+
 
 .mainHistorico li {
     width: 300px;
+    height: 200px;
+    flex-grow: 1;
+    padding: 10px 0 0 0;
+    list-style: none;
 }
 
 .mainHistorico li img {
     width: inherit;
+    height: inherit;;
 }
