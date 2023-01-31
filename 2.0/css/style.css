@@ -45,6 +45,11 @@ body {
 
 /* ================================================================= */
 
+.titleApresenta {
+    color:  #dce4e4;
+    margin: 0 0 0;
+}
+
 .mainHistorico .container {
         display: flex;
         align-items: center;
@@ -54,15 +59,57 @@ body {
 
 
 
-.mainHistorico li {
+.mainHistorico li, figure {
     width: 300px;
     height: 200px;
     flex-grow: 1;
-    padding: 10px 0 0 0;
+    padding: 10px 0  0;
     list-style: none;
 }
 
 .mainHistorico li img {
     width: inherit;
     height: inherit;;
+}
+
+
+
+.listDescription {
+    position: relative;
+    display: flex;
+}
+
+.listDescription p {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;;
+    top: 60px;
+    font-size: 23px;
+    color: rgb(255, 230, 0); text-shadow: black 0.1em 0.1em 0.2em
+}
+
+
+
+
+.listDescription figcaption {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    backdrop-filter: blur(3px);
+    width: 100%;
+    height: 100%;
+    transition: .3s all;
+}
+
+.listDescription figcaption:hover {
+    opacity: 1;
+    z-index: 2;
+    color: rgb(255, 12, 12);
+    font-weight: bolder;
+}
+
+.listDescription img:hover {
+    opacity: 0.5;
+    z-index: 1;
 }
