@@ -20,6 +20,7 @@ body {
     background: linear-gradient(rgb(0, 0, 0) 5% ,#141414);
     position: fixed;
     width: 100%;
+    z-index: 10;
 }
 
 
@@ -38,40 +39,32 @@ body {
     padding: 0 10px;
 }
 
+.cabecalhoNav a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.767);
+    transition: 0.5s;
+}
+
+.cabecalhoNav a:hover {
+    color: rgba(255, 255, 255, 0.432);
+}
+
 
 .logo_netflix {
     width: 116px;
 }
 
-/* ================================================================= */
+
+
+
+
+
+
+/* MAIN configurações ================================================================= */
 
 .titleApresenta {
     color:  #dce4e4;
-    margin: 0 0 0;
-}
-
-.mainHistorico .container {
-        display: flex;
-        align-items: center;
-        width: 100%;
-        flex-wrap: wrap;
-        
-}
-
-
-
-.mainHistorico li, figure {
-    width: 280px;
-    height: 170px;
-    flex-grow: 1;
-    padding: 10px 0  0;
-    list-style: none;
-}
-
-.mainHistorico li img {
-    width: inherit;
-    height: inherit;;
-    border-radius: 10px;
+    margin: 50px 0 0 50px;
 }
 
 
@@ -87,7 +80,7 @@ body {
     height: 100%;
     position: absolute;;
     top: 60px;
-    font-size: 23px;
+    font-size: 16px;
     color: rgb(255, 230, 0); text-shadow: black 0.1em 0.1em 0.2em
 }
 
@@ -114,4 +107,58 @@ body {
 .listDescription img:hover {
     opacity: 0.5;
     z-index: 1;
+}
+
+/* Histórico ================================================================= */
+
+.mainHistorico .container {
+    display: flex;
+    align-items: center;
+    width: 1500px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    
+}
+
+
+
+.mainHistorico li, figure {
+width: 240px;
+height: 135px;
+margin: 0 5px;
+padding: 10px 0  0;
+list-style: none;
+}
+
+.mainHistorico li img {
+width: inherit;
+height: inherit;;
+border-radius: 10px;
+}
+
+/* Séries ================================================================= */
+
+.mainSeries .container {
+    display: flex;
+    align-items: center;
+    width: 1500px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    
+}
+
+
+
+.mainSeries li, figure {
+width: 240px;
+height: 135px;
+margin: 0 5px;
+padding: 10px 0  0;
+list-style: none;
+}
+
+.mainSeries li img {
+width: inherit;
+height: inherit;;
+border-radius: 10px;
 }
