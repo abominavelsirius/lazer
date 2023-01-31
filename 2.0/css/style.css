@@ -162,3 +162,32 @@ width: inherit;
 height: inherit;;
 border-radius: 10px;
 }
+
+
+
+/* Filmes ================================================================= */
+
+.mainFilmes .container {
+    display: flex;
+    align-items: center;
+    width: 1500px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    
+}
+
+
+
+.mainFilmes li, figure {
+width: 240px;
+height: 135px;
+margin: 0 5px;
+padding: 10px 0  0;
+list-style: none;
+}
+
+.mainFilmes li img {
+width: inherit;
+height: inherit;;
+border-radius: 10px;
+}
