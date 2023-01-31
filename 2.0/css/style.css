@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #141414;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* ================================================================= */
+
+
+
+.cabecalhoPrincipal {
+    background: linear-gradient(rgb(0, 0, 0) 5% ,#141414);
+    position: fixed;
+    width: 100%;
+}
+
+
+.cabecalhoPrincipal .container {
+    display: flex;
+    align-items: center;
+}
+
+.cabecalhoPrincipal img {
+    margin: 0 50px 0 50px;
+}
+
+.cabecalhoNav li {
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.767);
+    padding: 0 10px;
+}
+
+
+.logo_netflix {
+    width: 116px;
+}
+
+/* ================================================================= */
+
+.mainHistorico .container {
+    display: flex;
+}
+
+.mainHistorico li {
+    width: 300px;
+}
+
+.mainHistorico li img {
+    width: inherit;
+}
