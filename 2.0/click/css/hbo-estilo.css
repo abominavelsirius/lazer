@@ -9,11 +9,13 @@
 body {
     font-family: 'Poppins', sans-serif;
     color: white;
-    background-image: url(../img/euphoria.png);
+    /* background-image: url(../img/euphoria.png); */
     background-repeat: no-repeat;
     background-size: 100%;
 }
 
+
+/* ================================================================= */
 
 .sobre {
     padding: 500px 0 0 0;
@@ -37,15 +39,23 @@ body {
 }
 
 
+/* ================================================================= */
+
+
 .borda-preta {
     background: black;
-    height: 1350px;
+    height: 1500px;
 }
 
 .informacoes {
     width: 1440px;
     margin: 0 auto;
 }
+
+
+
+/* ================================================================= */
+
 
 
 .episodio {
@@ -74,6 +84,12 @@ body {
     border-radius: 10px;
 }
 
+
+
+
+/* ================================================================= */
+
 .tier-list {
     margin: 10px 0;
+    width: 100%;
 }
