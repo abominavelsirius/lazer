@@ -39,7 +39,7 @@ body {
 
 .borda-preta {
     background: black;
-    height: 800px;
+    height: 1350px;
 }
 
 .informacoes {
@@ -74,3 +74,6 @@ body {
     border-radius: 10px;
 }
 
+.tier-list {
+    margin: 10px 0;
+}
