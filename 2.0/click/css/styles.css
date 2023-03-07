@@ -1,0 +1,24 @@
+.banner {
+    width: 100%;
+}
+
+div {
+    background-color: black;
+    width: 100%;
+    height: 500px;
+    position: absolute;;
+    top: 600px;
+}
+
+
+.sobre__cabecalho {
+    display: flex;
+    justify-content: flex-start;
+    gap: 5px;
+}
+
+.sobre__link {
+    color: white;
+    text-decoration: none;
+    margin: 30px 0 0 100px;
+}
