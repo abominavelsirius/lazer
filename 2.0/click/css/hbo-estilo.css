@@ -61,10 +61,10 @@ body {
 /* ================================================================= */
 
 
-.borda-preta {
+/* .borda-preta {
     background: black;
     height: 1500px;
-}
+} */
 
 .informacoes {
     width: 1440px;
@@ -78,7 +78,7 @@ body {
 
 
 .episodio {
-    height: 199.688px;
+    height: 250.688px;
     width: 355px;
     transition: 1.5s;
 }
@@ -91,7 +91,7 @@ body {
 
 .sinopse__paragrafo {
     width: 730px;
-    height: 32px;
+    height: 100px;
     margin: 20px 0;
     font-weight: 100;
     color: rgba(255, 255, 255, 0.568);
@@ -110,6 +110,10 @@ body {
 /* ================================================================= */
 
 .tier-list {
+    margin: 30px 0;
+}
+
+.tier-list-h {
     margin: 10px 0;
     width: 100%;
 }
