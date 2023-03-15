@@ -61,7 +61,7 @@ body {
 .episodio {
     height: 199.688px;
     width: 355px;
-    transition: 1s;
+    transition: 1.5s;
 }
 
 .episodio:hover {
@@ -69,11 +69,10 @@ body {
 }
 
 
-.sinopse {
-
-}
 
 .sinopse__paragrafo {
+    width: 730px;
+    height: 32px;
     margin: 20px 0;
 }
 
