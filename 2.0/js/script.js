@@ -1,3 +1,6 @@
 // function hbo() {
-//     document.body = 
+//     querySelector("body")
 // }
+
+
+// mudaria o background 

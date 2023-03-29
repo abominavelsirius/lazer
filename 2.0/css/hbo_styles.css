@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background: linear-gradient(blue, red); */
+    background: rgb(0,0,0);
+    background: linear-gradient(50deg, rgba(88,18,93,100) 21%, rgba(31,33,104,20) 71%);
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* ================================================================= */
+
+
+
+.cabecalhoPrincipal {
+    background: linear-gradient(rgb(0, 0, 0) 5% ,#141414);
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    z-index: 10;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+
+.cabecalhoPrincipal img {
+    margin: 0 50px 0 50px;
+}
+
+.cabecalhoNav li {
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.767);
+    padding: 0 10px;
+}
+
+.cabecalhoNav a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.767);
+    transition: 0.5s;
+}
+
+.cabecalhoNav a:hover {
+    color: rgba(255, 255, 255, 0.432);
+}
+
+
+.logo_hbo {
+    width: 134px;
+}
+
+
+
+
+
+
+
+/* MAIN configurações ================================================================= */
+
+.titleApresenta {
+    color:  #dce4e4;
+    margin: 50px 0 0 50px;
+}
+
+
+
+.listDescription {
+    position: relative;
+    display: flex;
+}
+
+.listDescription p {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;;
+    top: 60px;
+    font-size: 16px;
+    color: rgb(255, 230, 0); text-shadow: black 0.1em 0.1em 0.2em
+}
+
+
+
+
+.listDescription figcaption {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    backdrop-filter: blur(3px);
+    width: 100%;
+    height: 100%;
+    transition: .3s all;
+}
+
+.listDescription figcaption:hover {
+    opacity: 1;
+    z-index: 2;
+    color: rgb(255, 12, 12);
+    font-weight: bolder;
+}
+
+.listDescription img:hover {
+    opacity: 0.5;
+    z-index: 1;
+}
+
+/* Histórico ================================================================= */
+
+.mainHistorico .container {
+    display: flex;
+    align-items: center;
+    width: 1500px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    
+}
+
+
+
+.mainHistorico li, figure {
+width: 240px;
+height: 135px;
+margin: 0 5px;
+padding: 10px 0  0;
+list-style: none;
+}
+
+.mainHistorico li img {
+width: inherit;
+height: inherit;;
+border-radius: 10px;
+}
+
+/* Séries ================================================================= */
+
+.mainSeries .container {
+    display: flex;
+    align-items: center;
+    width: 1500px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    
+}
+
+
+
+.mainSeries li, figure {
+width: 240px;
+height: 135px;
+margin: 0 5px;
+padding: 10px 0  0;
+list-style: none;
+}
+
+.mainSeries li img {
+width: inherit;
+height: inherit;;
+border-radius: 10px;
+}
+
+
+
+/* Filmes ================================================================= */
+
+.mainFilmes .container {
+    display: flex;
+    align-items: center;
+    width: 1500px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    
+}
+
+
+
+.mainFilmes li, figure {
+width: 240px;
+height: 135px;
+margin: 0 5px;
+padding: 10px 0  0;
+list-style: none;
+}
+
+.mainFilmes li img {
+width: inherit;
+height: inherit;;
+border-radius: 10px;
+}
