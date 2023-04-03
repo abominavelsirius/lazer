@@ -102,6 +102,8 @@ body {
     z-index: 2;
     color: rgb(255, 12, 12);
     font-weight: bolder;
+    /* width: 500px;
+    height: 200px; */
 }
 
 .listDescription img:hover {
