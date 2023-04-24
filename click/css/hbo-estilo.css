@@ -38,7 +38,7 @@ body {
 
 .sobre {
     padding: 500px 0 0 0;
-    width: 1440px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -47,6 +47,7 @@ body {
     width: 3em;
     z-index: 2;
     position: relative;
+    padding: 0 0 0 65px;
 
 }
 
@@ -55,6 +56,7 @@ body {
     z-index: 2;
     background: linear-gradient(rgba(0, 0, 0, 0.041), black);
     width: 100%;
+    padding: 0 0 0 65px;
 }
 
 
