@@ -1,13 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 /* font-family: 'Roboto', sans-serif; */
 
+
+:root {
+    --cor-de-fundo: #141414;
+    --branco: rgba(255, 255, 255, 0.767);
+    --cinza: rgba(255, 255, 255, 0.432);
+    --branco-aceso: #dce4e4;
+
+    --letra-apresentativa: rgb(255, 230, 0);
+}
+
+
 * {
     margin: 0;
     padding: 0;
 }
 
 body {
-    background-color: #141414;
+    background-color: var(--cor-de-fundo);
     font-family: 'Roboto', sans-serif;
 }
 
@@ -35,18 +46,18 @@ body {
 
 .cabecalhoNav li {
     display: inline-block;
-    color: rgba(255, 255, 255, 0.767);
+    color: var(--branco);
     padding: 0 10px;
 }
 
 .cabecalhoNav a {
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.767);
+    color: var(--branco);
     transition: 0.5s;
 }
 
 .cabecalhoNav a:hover {
-    color: rgba(255, 255, 255, 0.432);
+    color: var(--cinza);
 }
 
 
@@ -81,7 +92,8 @@ body {
     position: absolute;;
     top: 60px;
     font-size: 16px;
-    color: rgb(255, 230, 0); text-shadow: black 0.1em 0.1em 0.2em
+    color: rgb(255, 230, 0); 
+    text-shadow: black 0.1em 0.1em 0.2em
 }
 
 
