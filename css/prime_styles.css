@@ -9,10 +9,10 @@
 body {
     /* background: linear-gradient(blue, red); */
     background: rgb(0,0,0);
-    background: linear-gradient(50deg, rgba(88,18,93,100) 21%, rgba(31,33,104,20) 71%);
+    background: #00050d;
     font-family: 'Roboto', sans-serif;
 }
-#00050d
+
 
 /* ================================================================= */
 
@@ -30,7 +30,11 @@ body {
 }
 
 
-
+.cabecalho__div {
+    display: flex;
+    align-items: center;
+    gap: 200px;
+}
 
 .cabecalhoPrincipal img {
     margin: 0 50px 0 50px;
@@ -54,7 +58,7 @@ body {
 
 
 .logo_prime {
-    width: 134px;
+    width: 150px;
 }
 
 
