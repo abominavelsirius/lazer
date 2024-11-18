@@ -1,12 +1,16 @@
 .contas__index {
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
 }
 
 .contas__titulo {
     color: rgba(255, 255, 255, 0.767);
     text-align: center;
     font-size: 70px;
-    margin: 200px 0 20px 0;
+    /* margin: 200px 0 20px 0; */
 }
 
 .contas {
@@ -25,5 +29,11 @@
     width: 300px;
     height: 200px;
     border-radius: 60px;
+    transition: 0.1s;
 }
 
+.contas__item__img:hover {
+    width: 305px;
+    height: 205px;
+    border: 2px solid rgb(90, 87, 87);
+}
