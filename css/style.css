@@ -40,6 +40,12 @@ body {
     align-items: center;
 }
 
+.cabecalho__div {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
 .cabecalhoPrincipal img {
     margin: 0 50px 0 50px;
 }
@@ -91,11 +97,11 @@ body {
     height: 100%;
     position: absolute;
     top: 60px;
-    font-size: 16px;
+    font-size: 1rem; 
     color: rgb(255, 230, 0); 
     text-shadow: black 0.1em 0.1em 0.2em
 }
-
+/* 1rem = 16px (caso diminua ou aumenta o site não vai dar ruim) */
 
 
 

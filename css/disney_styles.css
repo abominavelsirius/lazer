@@ -94,7 +94,7 @@ body {
     height: 100%;
     position: absolute;;
     top: 60px;
-    font-size: 16px;
+    font-size: 1rem;
     color: rgb(255, 230, 0); text-shadow: black 0.1em 0.1em 0.2em
 }
 
