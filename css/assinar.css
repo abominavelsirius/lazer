@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 /* font-family: "Inter", sans-serif; */
 
@@ -11,6 +16,8 @@
 }
 
 
+
+
 body {
     background: var(--cor-background);
     font-family: "Inter", sans-serif;
@@ -18,7 +25,26 @@ body {
 }
 
 .container {
-    background-image: url(../img_assinar/background.png);
     height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    text-align: center;
+    align-items: center;
+}
+
+.principal {
+    background-image: url(../img_assinar/tmnc.png);;
     background-repeat: no-repeat;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: var(--cor-principal);
+    background: cyan;
+    border: 2px solid black;
+}
+
+p {
+    color: var(--cor-secundaria);
 }
