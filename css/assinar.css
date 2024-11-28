@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+/* font-family: "Inter", sans-serif; */
+
+
+
+:root {
+    --cor-background: #181818;
+    --cor-principal: #FFFFFF;
+    --cor-secundaria: #C0C0C0;
+
+}
+
+
+body {
+    background: var(--cor-background);
+    font-family: "Inter", sans-serif;
+    color: var(--cor-principal);
+}
+
+.container {
+    background-image: url(../img_assinar/background.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+}
